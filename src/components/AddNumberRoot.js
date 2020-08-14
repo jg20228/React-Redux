@@ -1,11 +1,11 @@
 import React from 'react';
-import AddNumber from './AddNumber';
+import AddNumberContainer from '../containers/AddNumberContainer';
 
-const AddNumberRoot = (props) => {
+const AddNumberRoot = () => {
   return (
     <div>
       <h1>Add Number Root</h1>
-      <AddNumber onAdd={props.onAdd} />
+      <AddNumberContainer />
     </div>
   );
 };

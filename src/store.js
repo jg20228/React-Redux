@@ -21,6 +21,7 @@ const initState = {
 // 추가적으로 값이 생기면 모든 상태값을 스토어가 들고 있으면 된다 (initState)
 const reducer = (state = initState, action) => {
   if (action.type === INCREMENT) {
+    console.log('INCREMENT 호출됨');
     return { number: state.number + 1 };
   } else {
     return state;

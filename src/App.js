@@ -13,8 +13,8 @@ function App() {
   return (
     <div className="container">
       <h1>Root</h1>
-      <AddNumberRoot onAdd={add} />
-      <DisplayNumberRoot number={number} />
+      <AddNumberRoot />
+      <DisplayNumberRoot />
     </div>
   );
 }

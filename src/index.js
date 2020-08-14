@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
+import reducer from './store';
 
 //뿌리내리기, 메모리공간에 스토어가 만들어짐
 const store = createStore(reducer);
